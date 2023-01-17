@@ -85,17 +85,17 @@ const server = gateway({
 
 
   }, {
-    prefix: '/orders',
-    target: 'http://127.0.0.1:3001',
+    prefix: '/apiorders',
+    target: 'http://127.0.0.1:3002',
     hooks:{}
   },
   {
-    prefix: '/payements',
+    prefix: '/apipayements',
     target: 'http://127.0.0.1:3002',
     hooks:{}
 
   }, {
-    prefix: '/livraisons',
+    prefix: '/apilivraisons',
     target: 'http://127.0.0.1:3003',
     hooks:{}
   }
