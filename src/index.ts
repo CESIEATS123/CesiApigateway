@@ -79,8 +79,8 @@ app.listen(port, () => {
  const port1 = 9091;
 const server = gateway({
   routes: [{
-    prefix: '/products',
-    target: 'http://127.0.0.1:3000',
+    prefix: '/apiproduct',
+    target: 'http://127.0.0.1:4045',
     hooks:{}
 
 
